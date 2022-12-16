@@ -1,0 +1,3 @@
+
+// Table Users
+CREATE TABLE users(id  varchar(50) NOT NULL primary key, email varchar(30)  NOT NULL, password varchar(10)  NOT NULL);
