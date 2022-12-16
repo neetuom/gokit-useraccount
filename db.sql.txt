@@ -1,3 +1,24 @@
 
+
+// Login URL - /usr/local/mysql/bin/mysql -u root -p
+
+// gokit-useraccount URL
+
+   Http POST Method :-
+
+   http://localhost:8088/user
+   {
+    "email": "abc@xy.com",
+     "password": "123456"
+   }
+
+   Http GIT Method  :-
+
+   http://localhost:8088/user/970864f6-2b09-47f6-958a-66f836177f8e
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
 // Table Users
 CREATE TABLE users(id  varchar(50) NOT NULL primary key, email varchar(30)  NOT NULL, password varchar(10)  NOT NULL);
