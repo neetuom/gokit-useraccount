@@ -1,6 +1,6 @@
 
 # Exclude all files in the sibling folder called `.idea`
-/idea
+.idea/**
 
 
-*.DS_Store
+.DS_Store
