@@ -29,14 +29,14 @@ import (
 // const dbsource = "postgresql://postgres:postgres@localhost:5432/gokitexample?sslmode=disable"
 
 //Syntax 1 - MySQl database
-// const dbsource = "root:Arshita@10@tcp(localhost:3306)/golangdb"
+// const dbsource = "root:A******@10@tcp(localhost:3306)/golangdb"
 
 
 
 // Syntax 2 - part A
 const (
     username = "root"
-    password = "Arshita@10"
+    password = "A******@10"
     hostname = "localhost:3306"
     dbname   = "golangdb"
 )
