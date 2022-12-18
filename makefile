@@ -33,3 +33,7 @@ build:
 # run
 run:
 	docker run -p 50052:50051 -e MICRO_SERVER_ADDRESS=:50051 product-service:1
+
+# below command clean the cached to fix the issue of .gitignore
+git_cache_clean:
+	git rm -r --cached .
